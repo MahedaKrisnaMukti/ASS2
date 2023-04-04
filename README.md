@@ -45,17 +45,17 @@ Pada _function_ ini terdapat _data_ dalam _variable_ `facultyList` (bertipe _dat
 
 ```js
 const facultyList = [
-    ["Fakultas Ekonomi", "Ekonomi"],
-    ["Fakultas Ekonomi", "Manajemen"],
-    ["Fakultas Ekonomi", "Akuntansi"],
-    ["Fakultas Ilmu Sosial dan Politik", "Administrasi Publik"],
-    ["Fakultas Ilmu Sosial dan Politik", "Administrasi Bisnis"],
-    ["Fakultas Ilmu Sosial dan Politik", "Hubungan Internasional"],
-    ["Fakultas Teknik", "Teknik Sipil"],
-    ["Fakultas Teknik", "Arsitektur"],
-    ["Fakultas Teknologi Informasi dan Sains", "Matematika"],
-    ["Fakultas Teknologi Informasi dan Sains", "Fisika"],
-    ["Fakultas Teknologi Informasi dan Sains", "Informatika"],
+  ["Fakultas Ekonomi", "Ekonomi"],
+  ["Fakultas Ekonomi", "Manajemen"],
+  ["Fakultas Ekonomi", "Akuntansi"],
+  ["Fakultas Ilmu Sosial dan Politik", "Administrasi Publik"],
+  ["Fakultas Ilmu Sosial dan Politik", "Administrasi Bisnis"],
+  ["Fakultas Ilmu Sosial dan Politik", "Hubungan Internasional"],
+  ["Fakultas Teknik", "Teknik Sipil"],
+  ["Fakultas Teknik", "Arsitektur"],
+  ["Fakultas Teknologi Informasi dan Sains", "Matematika"],
+  ["Fakultas Teknologi Informasi dan Sains", "Fisika"],
+  ["Fakultas Teknologi Informasi dan Sains", "Informatika"],
 ];
 ```
 
@@ -63,27 +63,27 @@ _Function_ ini akan memproses _input_ yang diterima dari terminal dengan ketentu
 
 1. `studentId` memiliki format sebagai berikut:
 
-    ```txt
-    2022310004 -> 2022 31 0004
-    ```
+   ```txt
+   2022310004 -> 2022 31 0004
+   ```
 
-    - 2022 = tahun student terdaftar
-    - 31 = kode program studi
-    - 0004 = nomor urut student
+   - 2022 = tahun student terdaftar
+   - 31 = kode program studi
+   - 0004 = nomor urut student
 
 2. Diasumsikan terdapat beberapa kode program studi yang dimiliki.
 
-    - `21` = Untuk program studi `Ekonomi`
-    - `22` = Untuk program studi `Manajemen`
-    - `23` = Untuk program studi `Akuntansi`
-    - `31` = Untuk program studi `Administrasi Publik`
-    - `32` = Untuk program studi `Administrasi Bisnis`
-    - `33` = Untuk program studi `Hubungan Internasional`
-    - `41` = Untuk program studi `Teknik Sipil`
-    - `42` = Untuk program studi `Arsitektur`
-    - `51` = Untuk program studi `Matematika`
-    - `52` = Untuk program studi `Fisika`
-    - `53` = Untuk program studi `Informatika`
+   - `21` = Untuk program studi `Ekonomi`
+   - `22` = Untuk program studi `Manajemen`
+   - `23` = Untuk program studi `Akuntansi`
+   - `31` = Untuk program studi `Administrasi Publik`
+   - `32` = Untuk program studi `Administrasi Bisnis`
+   - `33` = Untuk program studi `Hubungan Internasional`
+   - `41` = Untuk program studi `Teknik Sipil`
+   - `42` = Untuk program studi `Arsitektur`
+   - `51` = Untuk program studi `Matematika`
+   - `52` = Untuk program studi `Fisika`
+   - `53` = Untuk program studi `Informatika`
 
 Kalian diminta untuk melakukan beberapa hal, antara lain:
 
@@ -93,7 +93,7 @@ Kalian diminta untuk melakukan beberapa hal, antara lain:
 
 3. Mendapatkan nama dari dosen pembimbing berdasarkan nama program studi yang sudah didapatkan.
 
-    > Hints: Gunakanlah function getLecturer untuk mendapatkan nama dari dosen pembimbing.
+   > Hints: Gunakanlah function getLecturer untuk mendapatkan nama dari dosen pembimbing.
 
 Output dari function ini berupa `object` dengan data _student_ yang sudah dilengkap dengan nama fakultas, program studi dan nama dosen pembimbing dengan format berikut:
 
@@ -156,17 +156,17 @@ Pada _function_ ini terdapat _data_ dalam _variable_ `lecturerList` (bertipe _da
 
 ```js
 const lecturerList = [
-    ["Dr. Ulbert Silalahi, Drs., MA.", "Administrasi Publik"],
-    ["Prof. Dr. Martinus Yuwana Marjuka, M.Si.", "Ekonomi"],
-    ["Dott. Thomas Anung Basuki, ST., MKom.", "Informatika"],
-    ["Dr. Cecilia Lauw Giok Swan, Ir., M.T.", "Teknik Sipil"],
-    ["Catharina Tan Lian Soei,Dra.,MM.", "Manajemen"],
-    ["Aldyfra Luhulima Lukman, S.T., M.T., Ph.D.", "Arsitektur"],
-    ["Sapta Dwikardana, Drs., M.Si., Ph.D.", "Hubungan Internasional"],
-    ["Agus, S.Sos., BAC., MBA., M.Phil", "Administrasi Bisnis"],
-    ["Dr. Julius Dharma Lesmono, SSi., SE., MT., MSc.", "Matematika"],
-    ["Liem Chin, SSi., MSi.", "Fisika"],
-    ["Dr. Elizabeth Tiur Manurung, M.Si.,Ak., CA., CIRR.", "Akuntansi"],
+  ["Dr. Ulbert Silalahi, Drs., MA.", "Administrasi Publik"],
+  ["Prof. Dr. Martinus Yuwana Marjuka, M.Si.", "Ekonomi"],
+  ["Dott. Thomas Anung Basuki, ST., MKom.", "Informatika"],
+  ["Dr. Cecilia Lauw Giok Swan, Ir., M.T.", "Teknik Sipil"],
+  ["Catharina Tan Lian Soei,Dra.,MM.", "Manajemen"],
+  ["Aldyfra Luhulima Lukman, S.T., M.T., Ph.D.", "Arsitektur"],
+  ["Sapta Dwikardana, Drs., M.Si., Ph.D.", "Hubungan Internasional"],
+  ["Agus, S.Sos., BAC., MBA., M.Phil", "Administrasi Bisnis"],
+  ["Dr. Julius Dharma Lesmono, SSi., SE., MT., MSc.", "Matematika"],
+  ["Liem Chin, SSi., MSi.", "Fisika"],
+  ["Dr. Elizabeth Tiur Manurung, M.Si.,Ak., CA., CIRR.", "Akuntansi"],
 ];
 ```
 
